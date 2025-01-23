@@ -10,12 +10,6 @@ const createBtn = controls.querySelector("[data-create]");
 const destroyBtn = controls.querySelector("[data-destroy]");
 const boxesContainer = document.querySelector("#boxes");
 
-function getRandomHexColor() {
-  return `#${Math.floor(Math.random() * 16777215)
-    .toString(16)
-    .padStart(6, "0")}`;
-}
-
 function createBoxes(amount) {
   const elements = [];
   let size = 30;
