@@ -1,3 +1,4 @@
+document.addEventListener("DOMContentLoaded", () => {
 const categoriesList = document.querySelector("#categories");
 const items = categoriesList.querySelectorAll(".item");
 
@@ -10,3 +11,4 @@ items.forEach((item) => {
   console.log(`Category: ${categoryTitle}`);
   console.log(`Elements: ${elementsCount}`);
 });
+  });
