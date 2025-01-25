@@ -29,12 +29,12 @@ const gallery = document.querySelector(".gallery");
 
 const galleryMarkup = images
   .map(({ url, alt }) => {
-    return `<li><img src="${url}" alt="${alt}" width="300"></li>`;
+    return `<li><img src="${url}" alt="${alt}" width="360"></li>`;
   })
   .join("");
 
 gallery.insertAdjacentHTML("beforeend", galleryMarkup);
 
-gallery.style.display = "flex";
-gallery.style.gap = "10px";
-gallery.style.flexWrap = "wrap";
+// gallery.style.display = "flex";
+// gallery.style.gap = "10px";
+// gallery.style.flexWrap = "wrap";
